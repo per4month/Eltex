@@ -9,7 +9,7 @@ int main(int argc, char *argv[]){
 	int len, maxlen;
 	int msqid;
 	current_pid = getpid();
-	char pathname[] ="server.c";
+	char pathname[] ="9-10-server.c";
 	key_t key;
         struct mypidbuf{
 		long mtype;
