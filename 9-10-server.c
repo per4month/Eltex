@@ -7,7 +7,7 @@
 int main(int argc, char *argv[]){
 	int msqid;
 	int len, maxlen;
-	char pathname[] = "server.c";
+	char pathname[] = "9-10-server.c";
 	key_t key;
 	
 	struct mypidbuf{
